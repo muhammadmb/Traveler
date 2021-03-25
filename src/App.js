@@ -2,9 +2,9 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Home from './Pages/Home/Home'
-import Products from './Pages/Products/Products';
-import Services from './Pages/Services/Services';
 import SignUp from './Pages/SignUp/SignUp';
+import Tours from './Pages/Tours/Tours';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (
@@ -15,9 +15,8 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/traveler" exact component={Home} />
           <Route path="/home" exact component={Home} />
-          <Route path="/traveler" exact component={Home} />
-          <Route path="/products" exact component={Products} />
-          <Route path="/services" exact component={Services} />
+          <Route path="/tours" exact component={Tours} />
+          <Route path="/contact" exact component={Contact} />
           <Route path="/sign-up" exact component={SignUp} />
 
         </Switch>
