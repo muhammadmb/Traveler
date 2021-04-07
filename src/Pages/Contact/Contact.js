@@ -26,9 +26,9 @@ const Contact = () => {
                     <p><RiMapPin2Fill /> address</p>
                     <p><AiOutlineMail /> sales@Traveler.com</p>
 
-                    <a href="#"><AiFillYoutube /></a>
-                    <a href="#"><FaFacebookF /></a>
-                    <a href="#"><FaTwitter /></a>
+                    <a href="https://www.youtube.com" target="_blank" rel="noreferrer"><AiFillYoutube /></a>
+                    <a href="https://www.fb.com" target="_blank" rel="noreferrer"><FaFacebookF /></a>
+                    <a href="https://www.twitter.com" target="_blank" rel="noreferrer"><FaTwitter /></a>
 
                 </div>
             </div>

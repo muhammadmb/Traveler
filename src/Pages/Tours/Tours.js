@@ -2,7 +2,8 @@ import React from 'react';
 import './ToursStyle.css'
 import { BsCalendar } from 'react-icons/bs'
 import { IoPeopleCircleOutline } from 'react-icons/io5'
-import { tours } from '../../Data/ToursData'
+import { tours } from '../../Data/ToursData';
+import { Link } from 'react-router-dom';
 
 const Tours = () => {
     return (
@@ -22,7 +23,8 @@ const Tours = () => {
                             <IoPeopleCircleOutline className="IoPeopleCircleOutline" /> <p className="people">People: {item.people}</p>
                             <div className="booking">
                                 <p className="price">{item.price}</p>
-                                <button className="bt" >Book now</button>
+                                <Link className="link" to="/sign-up" ><button className="bt" >Book now</button></Link>
+
                             </div>
 
                         </div>

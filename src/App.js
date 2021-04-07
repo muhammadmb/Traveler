@@ -5,6 +5,7 @@ import Home from './Pages/Home/Home'
 import SignUp from './Pages/SignUp/SignUp';
 import Tours from './Pages/Tours/Tours';
 import Contact from './Pages/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -18,8 +19,8 @@ function App() {
           <Route path="/tours" exact component={Tours} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/sign-up" exact component={SignUp} />
-
         </Switch>
+        <Footer />
       </BrowserRouter>
 
     </div>

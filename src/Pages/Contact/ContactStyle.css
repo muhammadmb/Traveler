@@ -3,6 +3,17 @@
     display: flex;
 }
 
+.contact p,
+.contact h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact h3{
+    font-weight: 400;
+    font-size: 35px;
+    color: #051263;
+}
+
 .contact .contact-form{
     display: flex;
     flex-direction: column;
@@ -31,7 +42,7 @@
     background-color: #FF7A59;
     color: #FFF;
     transition: all .4s ease-in-out;
-    margin: 2% auto;
+    margin: 2%;
 }
 
 .contact .contact-form input[type=submit]:hover{
@@ -43,6 +54,10 @@
     resize: none;
 }
 
+.contact .contact-info h3{
+    margin-bottom: 40%;
+}
+
 .contact .contact-info p{
     border-bottom: 1px solid rgba(0, 0, 0, 0.322);
     padding: 2.5px;
@@ -52,7 +67,7 @@
 .contact .contact-info a{
     font-size: 28px;
     color: #FF7A59;
-    margin-right: 5%;
+    margin: 1% 9%;
 }
 
 .contact .contact-info a:hover{
@@ -80,7 +95,26 @@
         width: 100%;
     }
 
+    .contact .contact-form input[type=submit]{
+        margin: 5% auto;
+    }
+
     .contact .contact-info{
         margin-top: 10%;
+    }
+
+    .contact .contact-info h3{
+        margin-bottom: 5%;
+    }
+
+    .contact .contact-info p{
+        width: 50%;
+        margin: 6% auto;
+    }
+
+    .contact .contact-info a{
+        font-size: 28px;
+        color: #FF7A59;
+        margin: 1% 2%;
     }
 }
